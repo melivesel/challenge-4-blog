@@ -1,4 +1,3 @@
-
 const nameInput = document.querySelector('#name');
 const titleInput = document.querySelector('#title');
 const contentInput = document.querySelector('#content');
@@ -38,5 +37,8 @@ saveButton.addEventListener('click', function (event) {
         nameInput.value = '';
         titleInput.value = '';
         contentInput.value = '';
+        
+        const blogDisplay = 'C:\Users\meliv\bootcamp\Class_files\challenge-4-blog\blog.html';
+        window.location.href = blogDisplay; 
     }
 });
