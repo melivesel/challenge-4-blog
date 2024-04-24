@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+  <head>
+    <meta charset="UTF-8">
+    <title>Blog</title>
+  </head>
+
+  <body>
+    <header>
+      <!--There should be a dark mode toggle-->
+      <h1>Welcome to my blog</h1>
+    </header>
+
+    <!-- Section 1: Title card -->
+    <section>
+    <h2>What's on your mind?</h2>
+    </section>
+
+    <!-- Section 2: Form, should include username, title, and content. on submit should take you to the blog page. -->
+    <section>
+        <div class="card">
+            <h2>Enter Your Thoughts</h2>
+            <form>
+                <div class="input-group">
+                  <label for="name">Username</label>
+                  <input type="username" name="name" id="name"/>
+                </div>
+                <div class="input-group">
+                  <label for="title">Title</label>
+                  <input type="text" name="title" id="title"/>
+                </div>
+                <div class="input-group">
+                  <label for="content">Content</label>
+                  <input type="text" name="content" id="content"/>
+                </div>
+                <div id="msg"></div>
+                <button id="save">SAVE</button>
+            </form>
+          </div>
+    </section>
+    <script src="./assets/js/form.js"></script>
+  </body>
+
+</html>
