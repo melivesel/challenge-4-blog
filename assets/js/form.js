@@ -38,7 +38,7 @@ saveButton.addEventListener('click', function (event) {
         titleInput.value = '';
         contentInput.value = '';
         
-        const blogDisplay = 'https://melivesel.github.io/challenge-4-blog/blog.html';
+        const blogDisplay = 'blog.html';
         window.location.href = blogDisplay; 
     }
 });

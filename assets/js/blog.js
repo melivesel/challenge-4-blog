@@ -42,7 +42,7 @@ document.addEventListener('DOMContentLoaded', init);
 
 backButton.addEventListener('click', function (event) {
     event.preventDefault();
-    const blogDisplay = 'https://melivesel.github.io/challenge-4-blog/index.html';
+    const blogDisplay = 'index.html';
     window.location.href = blogDisplay; 
 });
 
