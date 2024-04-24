@@ -1,4 +1,6 @@
 const postList = document.querySelector('#post-list');
+const backButton =document.querySelector('#back');
+
 let post = [];
 
 function renderPosts() {
@@ -37,6 +39,13 @@ function init() {
 }
 
 document.addEventListener('DOMContentLoaded', init);
+
+backButton.addEventListener('click', function (event) {
+    event.preventDefault();
+    const blogDisplay = 'https://melivesel.github.io/challenge-4-blog/index.html';
+    window.location.href = blogDisplay; 
+});
+
 
 
 
