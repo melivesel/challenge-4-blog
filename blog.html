@@ -3,17 +3,27 @@
   <head>
     <meta charset="UTF-8" />
     <title>Blog Posts</title>
+    <link rel="stylesheet" type="text/css" href="./assets/css/styles.css">
   </head>
   <!--need to add light dark toggle-->
-  <header>
-    <h1>Welcome to My Blog!</h1>
-  </header>
-  <body>
-    <div class="card">
-      <h1>Latest Posts</h1>
-      <ul id="post-list"></ul>
-    </div>
-    <button id="back">Create a New Post</button>
-    <script src="./assets/js/blog.js"></script>
-  </body>
+  <div class="container dark">
+    <header>
+      <h1>Welcome to My Blog!</h1>
+      <button id="toggle">🌇</button>
+      <button id="back">Create a New Post</button>
+    </header>
+    <body>
+      <div class="card">
+        <h1>Latest Posts</h1>
+        <ul id="post-list"></ul>
+     </div>
+      <script src="./assets/js/blog.js"></script>
+      <script src="./assets/js/form.js"></script>
+    </body>
+    <footer>
+    <h2>Made by Melivesel</h2>
+    <a href="https://melivesel.github.io/challenge-2-portfolio/" >Click here to see my portfolio!</a>
+   </footer>
+   <script src="./assets/js/logic.js"></script>
+  </div>
 </html>

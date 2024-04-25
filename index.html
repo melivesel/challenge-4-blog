@@ -4,21 +4,24 @@
   <head>
     <meta charset="UTF-8">
     <title>Blog</title>
+    <link rel="stylesheet" type="text/css" href="./assets/css/styles.css">
   </head>
 
   <body>
-    <header>
-      <!--There should be a dark mode toggle-->
-      <h1>Welcome to my blog</h1>
-    </header>
+    <div class="container dark">
+      <header>
+        <!--There should be a dark mode toggle-->
+        <h1>Welcome to my blog</h1> 
+        <button id="toggle">🌇</button>
+      </header>
 
     <!-- Section 1: Title card -->
-    <section>
-    <h2>What's on your mind?</h2>
-    </section>
+      <section>
+        <h2>What's on your mind?</h2>
+      </section>
 
     <!-- Section 2: Form, should include username, title, and content. on submit should take you to the blog page. -->
-    <section>
+      <section>
         <div class="card">
             <h2>Enter Your Thoughts</h2>
             <form>
@@ -38,7 +41,9 @@
                 <button id="save"></a>SAVE</button>
             </form>
           </div>
-    </section>
+      </section>
+    </div>
+    <script src="./assets/js/logic.js"></script>
     <script src="./assets/js/form.js"></script>
   </body>
 
