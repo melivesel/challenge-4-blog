@@ -1,0 +1,42 @@
+.header {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    justify-content: space-between;
+
+}
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height: 100%;
+   
+}
+h1 {
+    text-align: left;
+}
+
+button {
+    justify-content: right;
+    line-height: 30px;
+    margin-top: 20px;
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+    background-color: black;
+    color: white;
+  }
+
+#post-list {
+    height: 100%;
+    padding-bottom: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+  
